@@ -13,8 +13,10 @@ public class ConstructorDemo {
 		Id=sc.nextInt();
 		System.out.println("Enter Customer name");
 		name=sc.next();
+		sc.nextLine();
 		System.out.println("Enter Customer city");
 		city=sc.next();
+		sc.nextLine();
 		System.out.println("---------");
 		Customer ob=new Customer();
 		ob.setCustomerId(Id);

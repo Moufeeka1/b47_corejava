@@ -3,7 +3,7 @@ package com.tnsif.programs;
 public class Car {
 	int model;
 	String color;
-	int reg=2019;
+	int reg;
 	int amount=900000;
 	void forward() {
 		System.out.println("Car is moving forward");

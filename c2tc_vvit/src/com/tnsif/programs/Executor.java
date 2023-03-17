@@ -11,6 +11,10 @@ ob.backward();
 ob.forward();
 ob.stop();
 Scanner sc=new Scanner(System.in);
+System.out.println("Enter");
+int reg=sc.nextInt();
+System.out.println("reg is"+"  "+ob.amount);
+System.out.println("reg is"+reg);
 	}
 
 }

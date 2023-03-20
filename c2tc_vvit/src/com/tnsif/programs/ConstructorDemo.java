@@ -22,9 +22,16 @@ public class ConstructorDemo {
 		ob.setCustomerId(Id);
 		ob.setCustomerName(name);
 		ob.setCustomerCity(city);
+		Customer ob1=new Customer();
+		ob1.setCustomerName("Moufeeka");
+		ob1.setCustomerCity("Bangalore");
+		ob1.setCustomerId(10);
+		
+		System.out.println(ob1.getCustomerName()+" "+ob1.getCustomerCity()+" "+ob1.getCustomerId());
+	}
 		
 		
 
 	}
 
-}
+

@@ -1,9 +1,16 @@
 package com.tns.packagesecond;
-import com.tns.packagefirst.ParentClass;
+import com.tns.packagefirst.*;
 
 public class SubClass extends ParentClass {
-	public static void main(String[] args) {
-		ParentClass p=new ParentClass();
-		p.methodPublic();
-	}
+ protected void display() {
+		System.out.println("Hoii"); 
+		super.display();
+		
+		 
+}
+ public static void main(String[] args) {
+	 SubClass s=new SubClass();
+	 s.display();
+ }
+ 
 }

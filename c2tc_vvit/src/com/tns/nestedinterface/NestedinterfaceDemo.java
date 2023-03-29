@@ -9,7 +9,7 @@ public class NestedinterfaceDemo {
 		Bike b1=new Bike();
 		System.out.println(b1.getNoofwheels());
 		Car c=new Car();
-		System.out.println(b1.getNoofwheels());
+		System.out.println(c.getNoofwheels());
 
 	}
 

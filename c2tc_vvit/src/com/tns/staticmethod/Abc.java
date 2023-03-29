@@ -10,7 +10,6 @@ class Xyz
 public class Abc extends Xyz{
 	final int a=10;
 	
-final void display() {
-}
+
 }
 

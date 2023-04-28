@@ -12,7 +12,7 @@ public class MethodSync  implements Runnable {
 			System.out.println("no tickets booked");
 		}
 	}
-	@Override
+	@Override 
 	public void run() {
 		String name=Thread.currentThread().getName();
 		System.out.println("current thread is "+name);

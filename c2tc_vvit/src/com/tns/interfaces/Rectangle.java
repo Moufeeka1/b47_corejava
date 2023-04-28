@@ -8,14 +8,12 @@ public class Rectangle implements Shape {
 		this.breadth=breadth;
 	}
 
-	@Override
 	public float calculateArea() {
 		// TODO Auto-generated method stub
 		float area=length*breadth;
 		return area;
 	}
 
-	@Override
 	public float calculatePerimeter() {
 		// TODO Auto-generated method stub
 		float perimeter=2*(length+breadth);
